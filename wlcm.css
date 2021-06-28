@@ -20,7 +20,7 @@ body
  background-image: url(./images/computer\ Science.gif);
  background-repeat: no-repeat;
  background-size: cover;
- opacity: 3;
+ opacity: .9;
  color: white;
 }
 
@@ -29,7 +29,7 @@ body
 {
   width: 200px ;
   border-radius: 100%;
-  opacity: 6;
+  opacity: 1;
 }
 
 /* company slogan */
