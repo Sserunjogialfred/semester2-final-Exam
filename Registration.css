@@ -35,13 +35,13 @@ input
   border: 1px solid #111111;
 }
 
-/* Mark input boxes that gets an error on validation: */
+
 input.invalid
 {
   background-color: #555353;
 }
 
-/* Hide all steps by default: */
+
 .tab
 {
   display: none;
@@ -73,7 +73,6 @@ button:hover
   opacity: .9;
 }
 
-/* Make circles that indicate the steps of the form: */
 .step
 {
   height: 15px;
@@ -90,7 +89,7 @@ button:hover
   opacity: 1;
 }
 
-/* Mark the steps that are finished and valid: */
+
 .step.finish 
 {
   background-color: #04AA6D;
