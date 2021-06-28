@@ -1,0 +1,33 @@
+body
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn
+{
+  color: yellow;
+  background: none;
+  width: 150px;
+  border-radius: 15%;
+  font-size: 20px;
+  text-align: ;
+}
+#demo
+{
+color: rgb(233, 72, 14);
+font-size: 30px;
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+opacity: .9;
+}
+.previous
+{
+background-color: none;
+color: navy;
+font-size: 30px;
+font-weight: 900;
+}
+.Goto
+{
+    float: right;
+}

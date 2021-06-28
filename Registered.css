@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(./images/Welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin-top: 10%;
+}
+
+h1
+{
+    color: rgb(95, 9, 9);
+}
+
+.btn
+{
+ color: ghostwhite;
+ background: rgb(87, 9, 9);
+ font-size: 20px;
+ align-items: center;
+ border-radius: 20%;
+ width: 200px;
+ margin-left: 500px;
+ margin-top: 40px;
+ border: navy;
+}
+
+.btn a:hover
+{
+    color: navy;
+    background-color: ghostwhite;
+}
+#demo
+{
+ color: rgb(128, 9, 9);
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 900;
+ font-size: 20px;
+}
+
+a
+{
+ text-decoration: none;
+ display: inline-block;
+ padding: 8px 16px;
+
+}
+
+a:hover
+{
+ background-color: #ddd;
+ color: black;
+}
+
+.previous
+{
+ background-color: black;
+ color: white;
+}
+
+.next
+{
+ background-color: #aa3e04;
+ color: white;
+}
+
+.round
+{
+ border-radius: 50%;
+}
+h2
+{
+  color: navy;
+  text-align: right;
+}
+.Goto
+{
+    float: right;
+}

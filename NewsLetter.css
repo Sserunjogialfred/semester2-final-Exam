@@ -1,0 +1,46 @@
+body 
+{
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: blanchedalmond;
+  color: chocolate;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: rgb(12, 80, 148);
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #282929;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.fa-coffee,
+.fa-paper-plane
+{
+  color: orange;
+}
