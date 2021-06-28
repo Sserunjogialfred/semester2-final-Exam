@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <script src="https://kit.fontawesome.com/5a9a035870.js" crossorigin="anonymous"></script>
+  <style>
+    body 
+    {
+      font-family: Arial, Helvetica, sans-serif; 
+      background-color: blanchedalmond;
+      color: chocolate;
+    }
+    
+    form {
+      border: 3px solid #f1f1f1;
+      font-family: Arial;
+    }
+    
+    .container {
+      padding: 20px;
+      background-color: #f1f1f1;
+      color: rgb(12, 80, 148);
+      text-align: center;
+    }
+    
+    input[type=text], input[type=submit] {
+      width: 30%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    input[type=checkbox] {
+      margin-top: 16px;
+    }
+    
+    input[type=submit] {
+      background-color: #282929;
+      color: white;
+      border: none;
+    }
+    
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+    .fa-coffee,
+    .fa-paper-plane
+    {
+      color: orange;
+    }
+    </style>
+ </head>
+
+<body>
+
+<h2 style="text-align: center; color: brown;">ATU Newsletter</h2>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h2 style="text-align: center; color: rgb(21, 90, 163);"></i>Swing by for a cup of
+      <i class="fas fa-coffee"></i>, or leave me a note:</h2>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required><br>
+    <input type="text" placeholder="Email address" name="mail" required><br>
+    <label for="Message">Message</label><br><br>
+    <textarea name="" id="" cols="30" rows="5">Leave Here a note</textarea><br><br>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <i class="far fa-paper-plane"></i>
+    <input type="submit" value="Send">
+  </div>
+</form>
+
+</body>
+</html>

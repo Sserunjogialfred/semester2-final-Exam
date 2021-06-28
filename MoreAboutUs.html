@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATU homepage</title>
+    <script src="https://kit.fontawesome.com/5a9a035870.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Homepage.css">
+
+    <style>
+      body
+      {
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .btn
+      {
+        color: yellow;
+        background: none;
+        width: 150px;
+        border-radius: 15%;
+        font-size: 20px;
+        text-align: ;
+      }
+      #demo
+      {
+      color: rgb(233, 72, 14);
+      font-size: 30px;
+      font-weight: 900;
+      font-family: Arial, Helvetica, sans-serif;
+      opacity: .9;
+      }
+      .previous
+      {
+      background-color: none;
+      color: navy;
+      font-size: 30px;
+      font-weight: 900;
+      }
+      .Goto
+      {
+          float: right;
+      }
+  </style>
+  </head>
+  <body>   
+    <h2>
+      <img src="./images/ATU-logo.png" id="logo"> <br>ALFRED TECHNOLOGIES UGANDA <script type="text/javascript" src="https://mhpaio66hu-flywheel.netdna-ssl.com/wp-includes/js/jquery/ui/datepicker.min.js" id="jquery-ui-datepicker-js"></script></h2>
+    <div style="text-align: center;" class="intro">
+      <strong>
+      The site and sound of Information
+      </strong>
+    </div><hr size="2" color="#042148">
+    <div class="navbar">
+        <ul>
+          <div class="logo">ATU<span class=""> Technology Centre</span></div>
+          <li><a href="home" >Home</a></li>
+          <li><a href="AboutUs.html" class="active">About</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li><a href="Registration.html">Register</a></li>
+          <li><a href="Login.html">My Account</a></li>
+          <form class="example" action="/action_page.php" method="POST" >
+            <input type="text" placeholder="Search more......" name="search2">
+          </form><i class="fa fa-search"></i>
+        </ul><br>
+        <div class="imo">
+          <a href="#" onclick="typeWriter()" 
+              class="btn" style="font-weight: 900; font-size: 30px; "> Click here to More About ATU
+          </a>
+          <p id="demo"></p>
+          <script>
+          var i = 0;
+          var txt = 'We also Provide All kind of IT Services suchas Networking, Computer Servicing, Phone Reparing, Software Upgrading & Developing Computer Troubleshooting and Online Marketing and E-commerce';
+          var speed = 40;
+          function typeWriter() {
+            if (i < txt.length) {
+              document.getElementById("demo").innerHTML += txt.charAt(i);
+              i++;
+              setTimeout(typeWriter, speed);
+            }
+          }
+          </script>
+           <div class="Goto">
+              <a href="AboutUs.html" class="previous">&laquo; Previous</a>           
+          </div>
+          </script>
+    <div class="bottom_links">
+      <a href="#">Help</a>
+      <a href="#">Offices</a>
+      <a href="#">Contacts</a>
+      <a href="#">Services</a>
+      <a href="#">Locations We Operate In</a>
+      <a href="#">Info</a>
+      <a href="#">Register</a>
+      <a href="#">Site Map</a>
+    </div>
+    <footer class="footer-body" tyle="text-align: center;">             
+      <ul class="Contacts">
+        <p class="Contacts_header"  style="text-align: center; color: darkorange;">
+          Please Contact and Follow us Via
+       </p>
+        <i class="fas fa-phone"></i>+256 752828578 <br>
+        <i class="fab fa-whatsapp-square"></i>+256 752705411 <br>
+        <i class="fas fa-envelope-square"></i>AlfredtechnologiesUgana@ATU.com <br>
+        <i class="fas fa-globe"></i>https://www.AlfredtechUg.com 
+      </ul>
+      <div class="follow_us">
+        <p>FollowUs on</p>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-youtube-square"></i>
+     </div>
+      <div class="footer-Copyright">
+          <h3>Copyright &#169; 2021 Alfred technologies Uganda  | ATU All  rights Reserved</h3>
+      </div>
+    </footer>
+  </body>
+</html>

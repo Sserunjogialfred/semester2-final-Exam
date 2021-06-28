@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversation</title>
+  <link rel="stylesheet" href="Inbox.css">
+</head>
+<body>
+  
+</body>
+</html>
+
+</head>
+<body>
+
+<h2>Coversation with Workmates</h2>
+
+<div class="container">
+  <img src="images/Ariho Javira.png" alt="Avatar" style="width:100%;">
+  <p>Hello Alfred. How are you today?</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+  <img src="images/alfred 1.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Hey Javi! I'm fine. Thanks for the Heartbeat!</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="images/Mirembe.jpg" alt="Avatar" style="width:100%;">
+  <p>Alfred how far on your Website?</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+  <img src="images/alfred 1.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Madam am still on a homepage?</p>
+  <span class="time-left">11:05</span>
+</div>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="Inbox.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered</title>
+    <style>
+        body
+        {
+            background-image: url(./images/Welcome.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+            margin-top: 10%;
+        }
+       
+        h1
+        {
+            color: rgb(95, 9, 9);
+        }
+
+        .btn
+        {
+         color: ghostwhite;
+         background: rgb(87, 9, 9);
+         font-size: 20px;
+         align-items: center;
+         border-radius: 20%;
+         width: 200px;
+         margin-left: 500px;
+         margin-top: 40px;
+         border: navy;
+        }
+
+        .btn a:hover
+        {
+            color: navy;
+            background-color: ghostwhite;
+        }
+        #demo
+        {
+         color: rgb(128, 9, 9);
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 900;
+         font-size: 20px;
+        }
+
+        a
+        {
+         text-decoration: none;
+         display: inline-block;
+         padding: 8px 16px;
+
+        }
+
+        a:hover
+        {
+         background-color: #ddd;
+         color: black;
+        }
+
+        .previous
+        {
+         background-color: black;
+         color: white;
+        }
+
+        .next
+        {
+         background-color: #aa3e04;
+         color: white;
+        }
+
+        .round
+        {
+         border-radius: 50%;
+        }
+        h2
+        {
+          color: navy;
+          text-align: right;
+        }
+        .Goto
+        {
+            float: right;
+        }
+    </style>
+</head>
+<body>  
+    <h1 style="text-align: center;">***!Conguraguration!** <br>You Successully Registered as Amember in ATU Company</h1>
+    <button onclick="typeWriter()" class="btn"><a href="#">Know More</a></button>
+    <hr size="10" color="orange">
+    <p id="demo"></p>
+    <script>
+        var i = 0;
+        var txt = 'Welcome to an Official Website of ATU Company. Now your ideas are more respectable, So be a great valueable asset to ATU and generate new ideas that will top Up on our Company, ***Thanks For Being Part Of Us***';
+        var speed = 60;  
+        function typeWriter()
+        {
+          if (i < txt.length)
+            {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
+        <h2>Now move to Our Main Page</h2>
+        <div class="Goto">
+            <a href="Registration.html" class="previous">&laquo; Previous</a>           
+            <a href="Homepage.html" class="next">Next &raquo;</a>
+            <a href="#" class="previous round">&#8249;</a>
+            <a href="#" class="next round">&#8250;</a>
+        </div>
+    </body>
+</html>
