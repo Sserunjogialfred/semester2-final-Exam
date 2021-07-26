@@ -53,20 +53,23 @@ input:hover,
 /* add appropriate colors to fb, twitter and google buttons */
 .fb
 {
-  background-color: #061b49;
+  background-color: #0b70d0;
   color: white;
+  font-size: 20px;
 }
 
 .twitter
 {
-  background-color: #0a7dd5;
+  background-color: #0ba4dc;
   color: white;
+  font-size: 20px;
 }
 
 .google
 {
   background-color: #e2331c;
   color: white;
+  font-size: 20px;
 }
 
 /* style the submit button */

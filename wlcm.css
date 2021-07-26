@@ -17,7 +17,7 @@ body
 {
  padding-top: 30px;
  text-align: center;
- background-image: url(./images/computer\ Science.gif);
+ background-image: url(./images/Tech4.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  opacity: .9;
@@ -131,7 +131,7 @@ body
  float: left;
  display: block;
  color: white;
- background-color: #410f02;
+ background-color: #7b4205;
  text-align: center;
  padding: 14px 20px;
  text-decoration: none;
@@ -226,7 +226,7 @@ h2
 /* Author-Details */
 .Author
 {
-padding-top: 80px;
+padding-top: 0px;
 float: right;
 color: orangered;
 font-weight: 900;
@@ -242,9 +242,9 @@ font-weight: 900;
  {
 	overflow: hidden;
 	background-color: #410f02;
-	color: ghostwhite;
-	position:relative;
-    top: 10px;
+	color: bisque;
+	position:static;
+  top: 10px;
 	bottom: 5px;
 	width: 100%;
 	justify-content: space-between;
@@ -255,13 +255,13 @@ font-weight: 900;
 .bottom_links a 
 {
 	display: inline-block;
-	color: dimgrey;
+	color: ghostwhite;
 	padding: 8px;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: bolder;
 	margin-top: 5px;
- margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .bottom_links a:hover
@@ -277,7 +277,6 @@ font-weight: 900;
  font-size: 20px;
  text-align: center;
  background: #522010;
- padding: 0px;
  justify-content: center;
 } 
 
