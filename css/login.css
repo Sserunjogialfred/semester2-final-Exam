@@ -1,0 +1,190 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+p
+{
+  color: #0e0d0d;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: extra-expanded;
+  background: dodgerblue;
+  padding: 16px;
+}
+
+input,
+.btn
+{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover,
+.btn:hover
+{
+  opacity: 1;
+}
+
+.fb
+{
+  background: #0b70d0;
+  color: white;
+  font-size: 20px;
+}
+
+.twitter
+{
+  background: #0ba4dc;
+  color: white;
+  font-size: 20px;
+}
+
+.google
+{
+  background: #e2331c;
+  color: white;
+  font-size: 20px;
+}
+
+.instagram{
+  background: purple;
+  color: white;
+  font-size: 20px;
+}
+
+input[type=submit]
+{
+  background-color: #3b0404;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+  background-color: #0a3cdf;
+  transition: all ease-in;
+}
+
+.col
+{
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vl
+{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid rgb(141, 10, 10);
+  height: 280px;
+}
+
+
+.vl-innertext
+{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 3px solid rgb(116, 4, 4);
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container
+{
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  background: #e2331c;
+}
+
+
+@media screen and (max-width: 650px)
+{
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+ 
+  .vl {
+    display: none;
+  }
+ 
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+  background: none;
+  font-weight: 200;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
