@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registered</title>
-   <link rel="stylesheet" href="css/Registered.css">
-</head>
-<body> 
-    <img src="img/slider-1.png"> 
-    <h1 style="text-align: center;">***!Conguraguration!** <br>You Successully Registered as Amember in ATU Company</h1>
-    <button onclick="typeWriter()" class="btn"><a href="#">Know More</a></button>
-    <hr size="10" color="orange">
-    <p id="demo"></p>
-    <script>
-        var i = 0;
-        var txt = 'Welcome to an Official Website of ATU Company. Now your ideas are more respectable, So be a great valueable asset to ATU and generate new ideas that will top Up on our Company, ***Thanks For Being Part Of Us***';
-        var speed = 60;  
-        function typeWriter()
-        {
-          if (i < txt.length)
-            {
-                document.getElementById("demo").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-                }
-            }
-        </script>
+    <head>
+        <meta charset="utf-8">
+        <title>ALFRED TECHNOLOGIES UGANDA</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="ALFRED TECHNOLOGIES UGANDA" name="keywords">
+        <meta content="ALFRED TECHNOLOGIES UGANDA" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> 
+        
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/5a9a035870.js" crossorigin="anonymous"></script>
+        
+        <!-- Libraries CSS -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Main Stylesheet -->
+        <link href="css/Registered.css" rel="stylesheet">
+    </head>
+    <body> 
+        <img src="img/slider-1.png"> 
+        <h1 style="text-align: center;">***!Conguraguration!** <br>You Successully Registered as Amember in ATU Company</h1>
+        <button onclick="typeWriter()" class="btn"><a href="#">Know More</a></button>
+        <hr size="10" color="orange">
+        <p id="demo"></p>
         <h2>Now move to Our Main Page</h2>
         <div class="Goto">
-            <a href="Create UserAccount.html" class="previous">&laquo; Previous</a>           
-            <a href="index.html" class="next">Next &raquo;</a>
-            <a href="Create UserAccount.html" class="previous round">&#8249;</a>
-            <a href="index.html" class="next round">&#8250;</a>
+                <a href="Create UserAccount.html" class="previous">&laquo; Previous</a>           
+                <a href="index.html" class="next">Next &raquo;</a>
+                <a href="Create UserAccount.html" class="previous round">&#8249;</a>
+                <a href="index.html" class="next round">&#8250;</a>
         </div>
+
+        <!-- Libraries JS -->    
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Main Javascript -->
+        <script src="js/wlc.js"></script>
     </body>
 </html>
