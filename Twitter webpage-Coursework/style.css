@@ -1,0 +1,195 @@
+*,html,body
+{
+	padding: 0;
+	margin: 0;
+}
+
+.main-div{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-color:white ;
+	padding: 5px;
+	border: #ffff;
+}
+
+.First-div
+{
+    flex-basis: 50%;
+	width: 100%;
+	height: fit-content;
+	background-color: lightskyblue;
+    background-image: url(./images/Twitter_bird_logo.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+	border-right:rgb(70, 181, 245) solid ;
+	box-shadow:rgb(70, 181, 245) 8px;
+	padding: 30px;
+	margin: 0px;
+}
+
+
+/* .Second-div
+{
+flex-basis: 8%;
+background-color: white;
+} */
+
+
+.Third-div{
+	flex-basis: 50%;
+	width: 100%;
+	height: fit-content;
+	padding-left: 100px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+
+.check_password_btn
+{
+	width: 40%;
+	height: 40px;
+	border-bottom: none;
+	border-right: none;
+	background-color: white;
+	color: dodgerblue;
+	border-color: none;
+	margin-left: 150px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#Login_btn{
+	border-radius: 20px;
+	background-color: #24d6ea;
+	float: right;
+	margin-top: 0px;
+}
+
+#Login_btn2{
+	width: 80px;
+	height: 35px;
+	color: dodgerblue ;
+	border-radius: 20px;
+	border-color:  dodgerblue ;
+	font-weight: bolder;
+	float: right;
+	margin-right: 10px;
+}
+
+.h1
+{
+	color: black;
+	font-weight: 900;
+	margin-top: 20px;
+}
+
+#btn{
+	background-color:  rgb(38, 140, 235);
+	width: 75%;
+	height: 40px;
+	color: white;
+	border-radius: 50px;
+	font-weight: bolder;
+}
+
+#btn-out{
+	border-color:dodgerblue ;
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    color: dodgerblue ;
+	font-weight: bolder;
+}
+
+.input2
+{
+	width: 35%;
+	height: 35px;
+	justify-content: space-between;
+	padding: 8px;
+	padding-bottom: 7px;
+	border-top: white;
+	border-left: white;
+	border-right: white;
+	border-bottom: darkgray solid;
+	font-weight: bolder;
+	color: dimgrey;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+.img1
+{
+	width: 40px;
+}
+
+
+.fa-twitter
+{
+	width: 60px;
+	height: 60px;
+	padding-top: 20px;
+	color: dodgerblue;
+}
+
+
+.links a
+{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size:30px;
+	font-family: 'Times New Roman';
+	size: 5px;
+    font: weight bolder;
+	list-style-type: none;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.links a:hover
+{
+    background-color: none;
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+	text-decoration: none;
+}
+
+.navbar
+ {
+	overflow: hidden;
+	background-color: white;
+	color: dimgray;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+  }
+  
+  .navbar a {
+	float: center;
+	display: inline-block;
+	color: dimgrey;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bolder;
+	margin-top: 5px;
+    margin-bottom: 10px;
+	
+
+  }
+
+  .navbar a:hover {
+	background: #f1f1f1;
+	color: black;
+	font-weight: 900;
+  }
